@@ -36,21 +36,6 @@
     }
   }
   
-  .copyright {
-    width: 100%;
-    padding: 2rem 0 0;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-  
-    p {
-      text-transform: uppercase;
-      color: var(--black-color);
-    }
-  }
-  
   .head-text {
     font-size: 2.75rem;
     font-weight: 800;
@@ -105,7 +90,7 @@
   
     padding: 1rem;
   
-    div {
+    a {
       width: 40px;
       height: 40px;
       border-radius: 50%;
@@ -176,13 +161,9 @@
     }
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 620px) {
     .app__navigation,
     .app__social {
       display: none;
-    }
-  
-    .copyright {
-      padding: 2rem;
     }
   }
